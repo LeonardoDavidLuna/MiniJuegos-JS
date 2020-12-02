@@ -1,0 +1,86 @@
+@font-face
+{
+    font-family: "Gilroy";
+    src: url(fuentes/Gilroy-ExtraBold.otf) format("truetype");
+}
+
+#container
+{
+    width:800px;
+    height:520px;
+    cursor: url(complementos/drag_hand.png),auto;
+    /*border: 2px solid red;*/
+}
+#subcontainer
+{
+  height: 435px;
+  max-width: 100%;
+
+  border: 3px dashed #3D448B;
+  text-align: center;
+  border-radius: 8px;
+  
+}
+
+.contInstruccion
+{
+    width:auto;
+    height:auto;
+        
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:5px;
+    
+}
+#instruccion
+{
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: #1765A7;
+}
+.letreroA
+{
+    text-align: center;
+    font-family: "Gilroy";
+    font-size: 40px;
+    color: #F4902C;
+    
+}
+.letreroB
+{
+    width:120px;
+    height:25px;
+    text-align: center;
+    font-family: "Gilroy";
+    margin: 0 auto;
+    font-size: 20px;
+    color: #37B449;
+    border: 2px dashed #3D448B;
+    padding: 5px;
+}
+.padre
+{
+    width: auto;
+    height: 140px;
+    margin-top: 20px;
+    text-align: center;
+    /*border: 2px dashed green;*/
+}
+
+#resultado 
+{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Gilroy";
+  font-size: 25px;
+  color: #81C343;
+}
+
+.figura
+{   
+    max-height: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}

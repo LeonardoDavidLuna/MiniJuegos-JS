@@ -1,0 +1,199 @@
+@font-face 
+{
+    font-family: "Gilroy";
+    src:url(Archivos/Fuentes/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+
+#container
+{      
+  height: 550px;
+  width: 800px;
+  /*border: 2px solid red;*/
+  
+  cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+
+.contInstruccion
+{
+    background: #1EACE3;
+    width:auto;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left:50%;
+    padding:5px;
+    
+}
+#instruccion
+{
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: #08084E;
+}
+#subcontainer
+{
+    height: 500px;
+    width: auto;
+    
+    /*border: 2px dashed purple;*/
+}
+#fondo
+{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+}
+.imagen
+{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    
+}
+#personaje
+{
+    position: absolute;
+    
+    height: 190px;
+    width: 190px;
+    
+    margin-top: 105px;
+    margin-left: 72px;
+    
+    /*border: 1px solid red;*/
+    
+}
+#dialogo
+{
+    position: absolute;
+    
+    height: 65px;
+    width: 270px;
+    
+    margin-top: 160px;
+    margin-left: 265px;
+    
+    /*border: 1px solid red;*/
+    
+}
+#resultado
+{
+  position: absolute;
+  height: 20px;
+  width: 283px;
+    
+  margin-top: 168px;
+  margin-left: 295px;
+  
+    
+  color: #08084E;
+  font-family: "Gilroy";
+  font-size: 18px;
+}
+#resultado2
+{
+  position: absolute;
+  height: 20px;
+  width: 223px;
+  margin-top: 192px;
+  margin-left: 295px;
+  font-family: "Gilroy-Light";
+  color: #08084E;
+  font-size: 18px;   
+}
+.imagenes
+{
+    max-height: 100%;
+    max-width:  100%;
+    align-items: center;    
+}
+.fruta1
+{
+    position: absolute;
+    text-align: center;
+    height: 85px;
+    width: 85px;
+    
+    margin-left: 30px;
+    
+    /*border: 1px solid red;*/
+}
+.fruta2
+{
+    position: absolute;
+    text-align: center;
+    height: 85px;
+    width: 85px;
+    
+    margin-left: 200px;
+    
+    /*border: 1px solid red;*/
+}
+.fruta3
+{
+    position: absolute;
+    text-align: center;
+    height: 85px;
+    width: 85px;
+    
+    margin-left: 350px;
+    
+    /*border: 1px solid red;*/
+}
+.fruta4
+{
+    position: absolute;
+    text-align: center;
+    height: 85px;
+    width: 85px;
+    
+    margin-left: 510px;
+    
+    /*border: 1px solid red;*/
+}
+.fruta5
+{
+    position: absolute;
+    text-align: center;
+    height: 85px;
+    width: 85px;
+
+    margin-left: 670px;
+    /*border: 1px solid red;*/
+}
+
+#mesa
+{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    
+    margin-top: 310px;
+    margin-left: 430px;
+    text-align: center;
+    
+    /*border: 1px solid red;*/
+}
+.containerFrutas
+{ 
+  position: absolute;
+  height: 85px;
+  width: 800px;
+  
+  margin-top: 415px;
+  
+  align-items: center;
+  
+  background: #1EACE3;
+  /*border: 1px solid blue;*/
+}
+

@@ -1,0 +1,238 @@
+@font-face 
+{
+    font-family: "Gilroy";
+    src:url(Archivos/Fuentes/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+
+#container
+{      
+  height: 550px;
+  width: 800px;
+  /*border: 2px solid red;*/
+  
+  cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+
+.contInstruccion
+{
+    background: #1EACE3;
+    width:auto;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left:50%;
+    padding:5px;
+    
+}
+#instruccion
+{
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: #08084E;
+}
+#subcontainer
+{
+    height: 500px;
+    width: auto;
+    
+    /*border: 2px dashed purple;*/
+}
+#fondo
+{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+}
+#cuadro
+{
+    position: absolute;
+    height: 115px;
+    width: 150px;
+    
+    margin-top: 67px;
+    margin-left: 483px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+    
+}
+#lampara
+{
+    position: absolute;
+    height: 202px;
+    width: 50px;
+    
+    margin-top: 149px;
+    margin-left: 700px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+#maceta
+{
+    position: absolute;
+    height: 242px;
+    width: 110px;
+    
+    margin-top: 82px;
+    margin-left: 260px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+#libro
+{
+    position: absolute;
+    height: 22px;
+    width: 50px;
+    
+    margin-top: 285px;
+    margin-left: 142px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+#television
+{
+    position: absolute;
+    height: 147px;
+    width: 180px;
+    
+    margin-top: 95px;
+    margin-left: 35px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+#mesa
+{
+    position: absolute;
+    height: 76px;
+    width: 173px;
+    
+    margin-top: 310px;
+    margin-left: 415px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+#florero
+{
+    position: absolute;
+    height: 126px;
+    width: 38px;
+    
+    margin-top: 193px;
+    margin-left: 495px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+#cojinL
+{    
+    position: absolute;
+    height: 64px;
+    width: 92px;
+    
+    margin-top: 190px;
+    margin-left: 400px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+#cojinR
+{
+    position: absolute;
+    height: 66px;
+    width: 92px;
+    
+    margin-top: 193px;
+    margin-left: 562px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid red;*/
+}
+.imagen
+{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    
+}
+#personaje
+{
+    position: absolute;
+    
+    height: 140px;
+    width: 140px;
+    
+    margin-top: 325px;
+    margin-left: 92px;
+    
+    /*border: 1px solid red;*/
+    
+}
+#dialogo
+{
+    position: absolute;
+    
+    height: 65px;
+    width: 260px;
+    
+    margin-top: 356px;
+    margin-left: 233px;
+    
+    /*border: 1px solid red;*/
+    
+}
+#resultado
+{
+  position: absolute;
+  height: 20px;
+  width: 283px;
+    
+  margin-left: 260px;
+  margin-top: 365px;
+    
+  color: #08084E;
+  font-family: "Gilroy";
+  font-size: 18px;
+}
+#resultado2
+{
+  position: absolute;
+  height: 20px;
+  width: 223px;
+  margin-left: 260px;
+  margin-top: 385px;
+  font-family: "Gilroy-Light";
+  color: #08084E;
+  font-size: 18px;   
+}
+#boton
+{
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    background: yellow;
+    
+    margin-top: 460px;
+    margin-left: 370px;
+    
+    text-align: center;
+    font-family: "Gilroy";
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    color: #08084E;
+    
+    border: 2px solid #695DA9;
+}

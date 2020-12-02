@@ -1,0 +1,452 @@
+@font-face 
+{
+    font-family: "Gilroy";
+    src:url(archivos/otros/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+
+#container
+{
+    width:800px;
+    height:500px;
+    /*border: 2px solid red;*/
+    cursor: url(archivos/otros/drag_hand.png),auto;
+}
+#subcontainer
+{
+  width:auto;
+  height: 450;
+  border: 3px dashed #7B7C7D;
+  text-align: center;
+  border-radius: 8px;  
+}
+.contInstruccion
+{
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding:5px;
+    
+}
+#instruccion
+{
+    font-size: 26px;
+    font-family: "Gilroy";
+    color: #1765A7;
+}
+#imagen
+{
+    max-height: 100%;
+    max-width: 100%;
+    pointer-events: none;
+}
+#cont-nina
+{
+    position: absolute;
+    height:  150px;
+    width: 150px;
+    margin-top: 120px;
+    margin-left: 30px;
+    
+
+}
+#dialogo-container
+{
+    position: absolute;
+    height: 110px;
+    width: 300px;
+    
+    margin-top: 270px;
+    margin-left: 22px;
+    color: #08084E;
+    font-family: "Gilroy";
+    
+    
+}
+#english
+{
+    position: absolute;
+    height: auto;
+    width: 300px;
+    
+    
+    margin-top: 290px;
+    margin-left: 22px;
+    color: #08084E;
+    font-family: "Gilroy";
+    font-size: 19px;
+    
+}
+#spanish
+{
+    position: absolute;
+    height: auto;
+    width: 300px;
+    
+    margin-top: 333px;
+    margin-left: 22px;
+    color: #08084E;
+    
+    font-family: "Gilroy-Light";
+    
+}
+
+#dialogo
+{
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 320px;
+    
+    
+    border: 2px dashed gray;
+}
+#mapa-container
+{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 600px;
+}
+#container-estrella
+{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    
+    margin-left: 565px;
+    margin-top: 80px;
+    
+}
+
+#norte
+{
+    position: absolute;
+    height: 193px;
+    width: 360px;
+    margin-top: 15px;
+    margin-left: 170px;
+    
+}
+#centro
+{
+    position: absolute;
+    height: 125px;
+    width: 190px;
+    margin-top: 210px;
+    margin-left: 360px;
+    
+}
+#sur
+{
+    position: absolute;
+    height: 167px;
+    width: 195px;
+    
+    margin-left: 550px;
+    margin-top: 266px;
+    
+    
+}
+#sur2
+{
+    position: absolute;
+    height: 70px;
+    width: 119px;
+    
+    margin-top: 340px;
+    margin-left: 430px;
+    
+    
+}
+#magnolia
+{
+    position: absolute;
+    height: 39px;
+    width: 68px;
+    
+    margin-top: 56px;
+    margin-left: 154px;
+    
+    /*border: 2px dashed purple;*/
+}
+#coyote
+{
+    position: absolute;
+    height: 45px;
+    width: 53px;
+    
+    margin-top: 52px;
+    margin-left: 259px;
+    
+    /*border: 2px dashed purple;*/
+}
+#cactus
+{
+    position: absolute;
+    height: 43px;
+    width: 40px;
+    
+    margin-top: 108px;
+    margin-left: 196px;
+    
+    /*border: 2px dashed purple;*/
+}
+#ballena
+{
+    position: absolute;
+    height: 43px;
+    width: 89px;
+    
+    margin-top: 148px;
+    margin-left: 236px;
+    
+    /*border: 2px dashed purple;*/
+}
+#peyote
+{
+    position: absolute;
+    height: 49px;
+    width: 49px;
+    
+    margin-top: 196px;
+    margin-left: 232px;
+    
+    /*border: 2px dashed purple;*/
+}
+#maguey
+{
+    position: absolute;
+    height: 44px;
+    width: 64px;
+    
+    margin-top: 100px;
+    margin-left: 285px;
+    
+    /*border: 2px dashed purple;*/
+}
+#aguila
+{
+    position: absolute;
+    height: 58px;
+    width: 34px;
+    
+    margin-top: 75px;
+    margin-left: 350px;
+    
+    /*border: 2px dashed purple;*/
+}
+#girasol
+{
+    position: absolute;
+    height: 64px;
+    width: 26px;
+    
+    margin-top: 102px;
+    margin-left: 390px;
+    
+    /*border: 2px dashed purple;*/
+}
+#cactus2
+{
+    position: absolute;
+    height: 68px;
+    width: 32px;
+    
+    margin-top: 110px;
+    margin-left: 437px;
+    
+    /*border: 2px dashed purple;*/
+}
+#palmera
+{
+    position: absolute;
+    height: 75px;
+    width: 39px;
+    
+    margin-top: 135px;
+    margin-left: 482px;
+    
+    /*border: 2px dashed purple;*/
+}
+#pino
+{
+    position: absolute;
+    height: 80px;
+    width: 44px;
+    
+    margin-top: 153px;
+    margin-left: 340px;
+
+    /*border: 2px dashed purple;*/
+}
+#zenzontle
+{
+    position: absolute;
+    height: 48px;
+    width: 47px;
+    
+    margin-top: 176px;
+    margin-left: 390px;
+
+    /*border: 2px dashed purple;*/
+}
+#xolos
+{
+    position: absolute;
+    height: 48px;
+    width: 47px;
+    
+    margin-top: 234px;
+    margin-left: 368px;
+
+    /*border: 2px dashed purple;*/
+}
+#nochebuena
+{
+    position: absolute;
+    height: 48px;
+    width: 52px;
+    
+    margin-top: 234px;
+    margin-left: 418px;
+
+    /*border: 2px dashed purple;*/
+}
+#tecolote
+{
+    position: absolute;
+    height: 48px;
+    width: 42px;
+    
+    margin-top: 219px;
+    margin-left: 478px;
+
+    /*border: 2px dashed purple;*/
+}
+#mariposa
+{
+    position: absolute;
+    height: 39px;
+    width: 57px;
+    
+    margin-top: 295px;
+    margin-left: 375px;
+
+    /*border: 2px dashed purple;*/
+}
+#nopal
+{
+    position: absolute;
+    height: 40px;
+    width: 33px;
+    
+    margin-top: 285px;
+    margin-left: 440px;
+
+    /*border: 2px dashed purple;*/
+}
+#cosmos
+{
+    position: absolute;
+    height: 58px;
+    width: 30px;
+    
+    margin-top: 270px;
+    margin-left: 480px;
+
+    /*border: 2px dashed purple;*/
+}
+#ajolote
+{
+    position: absolute;
+    height: 42px;
+    width: 45px;
+    
+    margin-top: 290px;
+    margin-left: 514px;
+
+    /*border: 2px dashed purple;*/
+}
+#mapache
+{
+    position: absolute;
+    height: 35px;
+    width: 56px;
+    
+    margin-top: 330px;
+    margin-left: 438px;
+
+    /*border: 2px dashed purple;*/
+}
+#cempasuchil
+{
+    position: absolute;
+    height: 60px;
+    width: 26px;
+    
+    margin-top: 336px;
+    margin-left: 504px;
+
+    /*border: 2px dashed purple;*/
+}
+#cacomiztle
+{
+    position: absolute;
+    height: 78px;
+    width: 32px;
+    
+    margin-top: 316px;
+    margin-left: 564px;
+
+    /*border: 2px dashed purple;*/
+}
+#guacamaya
+{
+    position: absolute;
+    height: 60px;
+    width: 35px;
+    
+    margin-top: 338px;
+    margin-left: 620px;
+
+    /*border: 2px dashed purple;*/
+}
+#ocelote
+{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    
+    margin-top: 294px;
+    margin-left: 655px;
+
+    /*border: 2px dashed purple;*/
+}
+#boton
+{
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    background: yellow;
+    
+    margin-top: 400px;
+    margin-left: 370px;
+    
+    text-align: center;
+    font-family: "Gilroy";
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    color: #08084E;
+    
+    border: 2px solid #695DA9;
+}

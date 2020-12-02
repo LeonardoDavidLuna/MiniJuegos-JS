@@ -1,0 +1,248 @@
+@font-face 
+{
+    font-family: "Gilroy";
+    src:url(Archivos/Fuentes/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+
+#container
+{      
+  height: 550px;
+  width: 800px;
+  /*border: 2px solid red;*/
+  cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+
+.contInstruccion
+{
+    background: #1EACE3;
+    width:auto;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left:50%;
+    padding:5px;
+    
+}
+#resultado
+{
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: #08084E;
+}
+#subcontainer
+{
+    height: 500px;
+    width: auto;
+    
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+    /*border: 2px dashed purple;*/
+}
+#fondo
+{
+    position: absolute;
+    
+    height: 500px;
+    width: 800px;
+}
+.imagen
+{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+.television
+{
+    position: absolute;
+    
+    height: 160px;
+    width: 200px;
+    
+    margin-top: 110px;
+    margin-left: 30px;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+.cuadro
+{
+    position: absolute;
+    height: 135px;
+    width: 175px;
+    
+    
+    margin-top: 67px;
+    margin-left: 475px;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+.lampara
+{
+    position: absolute;
+    
+    height: 200px;
+    width: 61px;
+    
+    margin-top: 152px;
+    margin-left: 698px;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+.florero
+{
+    position: absolute;
+    
+    height: 145px;
+    width: 51px;
+    
+    margin-top: 193px;
+    margin-left: 491px;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+.cojinL
+{
+    position: absolute;
+    height: 50px;
+    width: 65px;
+    
+    margin-top: 228px;
+    margin-left:  434px;
+    
+    /*border: 2px dashed;*/
+    
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+.cojinR
+{
+    position: absolute;
+    
+    height: 70px;
+    width: 65px;
+    margin-top: 211px;
+    margin-left: 586px;
+    
+    /*border: 2px dashed;*/
+    
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+
+#objeto1
+{
+    position: absolute;
+    
+    height: 80px;
+    width: 80px;
+    
+    margin-top: 410px;
+    margin-left: 45px;
+    
+    text-align: center;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+#objeto2
+{
+    position: absolute;
+    
+    height: 80px;
+    width: 80px;
+    
+    margin-top: 410px;
+    margin-left: 170px;
+    
+    text-align: center;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+#objeto3
+{
+    position: absolute;
+    
+    height: 80px;
+    width: 80px;
+    
+    margin-top: 410px;
+    margin-left: 295px;
+    
+    text-align: center;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+#objeto4
+{
+    position: absolute;
+    
+    height: 80px;
+    width: 80px;
+    
+    margin-top: 410px;
+    margin-left: 420px;
+    
+    text-align: center;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+#objeto5
+{
+    position: absolute;
+    
+    height: 80px;
+    width: 80px;
+    
+    margin-top: 410px;
+    margin-left: 545px;
+    
+    text-align: center;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+#objeto6
+{
+    position: absolute;
+    
+    height: 80px;
+    width: 80px;
+    
+    margin-top: 410px;
+    margin-left: 670px;
+    
+    text-align: center;
+    
+    /*border: 2px dashed;*/
+    cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+#boton
+{
+    position: absolute;
+    height: 30px;
+    width: 110px;
+    background: yellow;
+    
+    margin-top: 20px;
+    margin-left: 680px;
+    
+    text-align: center;
+    font-family: "Gilroy";
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    color: #08084E;
+    
+    border: 2px solid #695DA9;
+}

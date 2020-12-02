@@ -1,0 +1,145 @@
+@font-face 
+{
+    font-family: "Gilroy";
+    src:url(archivos/otros/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+
+#container
+{
+    width:800px;
+    height:500px;
+    /*border: 2px solid red;*/
+    cursor: url(archivos/otros/drag_hand.png),auto;
+}
+#subcontainer
+{
+  width:auto;
+  height: 450;
+  border: 3px dashed #7B7C7D;
+  text-align: center;
+  border-radius: 8px;  
+}
+.contInstruccion
+{
+    width:100%;
+    height:auto;
+    
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding:5px;
+    
+}
+#instruccion
+{
+    font-size: 26px;
+    font-family: "Gilroy";
+    color: #1765A7;
+}
+#imagenx
+{
+    max-height: 100%;
+    max-width: 100%;
+    pointer-events: none;
+}
+.imagen
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+#mapa-container
+{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 600px;
+}
+#container-estrella
+{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    
+    margin-left: 565px;
+    margin-top: 80px;
+    
+}
+#figura1
+{
+    height: 100px;
+    width: 100px;
+    
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+        
+    
+}
+#figura2
+{
+    height: 100px;
+    width: 100px;
+    
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 50px;
+    
+    
+}
+#figura3
+{    
+    height: 100px;
+    width: 100px;
+    
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 50px;
+    
+    
+}
+
+#norte
+{
+    height: 125px;
+    width: 185px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 290px;
+    
+    
+    /*border: 2px dashed red;*/
+}
+#centro
+{
+    height: 125px;
+    width: 185px;
+    
+    position: absolute;
+    margin-top: 223px;
+    margin-left: 360px;
+    
+    
+    /*border: 2px dashed purple;*/
+}
+#sur
+{
+    height: 125px;
+    width: 185px;
+    
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 550px;
+    
+    
+    /*border: 2px dashed green;*/
+    
+}

@@ -1,0 +1,88 @@
+@font-face 
+{
+    font-family: "Gilroy";    
+    src:url(archivos/otros/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+.contInstruccion
+{
+    width:auto;
+    height:auto;
+    
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:5px;
+    
+}
+#instruccion
+{
+    font-size: 26px;
+    font-family: "Gilroy";
+    color: #1765A7;
+}
+#container
+{
+    width:800px;
+    height:500px;
+    /*border: 2px solid red;*/
+}
+#subcontainer
+{
+  max-width: 100%;
+  max-height: 100%;
+  
+  border: 3px dashed #7B7C7D;
+  text-align: center;
+  border-radius: 8px;
+
+  cursor: url(archivos/otros/drag_hand.png),auto;
+}
+.smile
+{
+    
+    height: 35%;
+    width: 100%;
+    margin-top: 45px;
+    
+}
+.contRespuesta
+{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border: 3px solid #695DA9;
+}
+.palabra
+{
+    
+    
+    font-family: "Gilroy";
+    font-size: 80px;
+    color: #F6912C;
+}
+.traduccion
+{
+    font-family: "Gilroy-Light";
+    font-size: 30px;   
+    color: #F6912C;
+}
+.posflecha
+{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    /*border: 2px solid green;*/
+}
+
+.flecha
+{
+    max-height:  100%;
+    max-width:  100%;
+    float: right;
+}

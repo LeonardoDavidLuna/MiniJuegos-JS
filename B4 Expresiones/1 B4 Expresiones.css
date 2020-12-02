@@ -1,0 +1,164 @@
+@font-face 
+{
+    font-family: "Gilroy";
+    src:url(archivos/otros/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+
+.contInstruccion
+{
+    width: auto;
+    height:auto;
+    
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding:5px;
+    /*border: 2px solid blue;*/
+    
+}
+#instruccion
+{
+    font-size: 26px;
+    font-family: "Gilroy";
+    color: #1765A7;
+}
+#container
+{
+    width:800px;
+    height:500px;
+    /*border: 2px solid red;*/
+}
+#subcontainer
+{
+  max-height: 100%;
+  max-width:100%;
+  
+  border: 3px dashed #7B7C7D;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  cursor: url(archivos/otros/drag_hand.png),auto;
+}
+.ladoA
+{
+    max-height: 100%;
+    width:  450px;
+
+    /*border: 3px solid blue;*/
+}
+.faceContainer
+{
+    background-color: #FDBF4F;
+    height: 240px;
+    max-width: 90%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    /*border: 2px solid #592E2C;*/
+    border-radius: 8px;
+}
+.contImagen
+{
+    height: 100px;
+    width:  100px;
+    display: block;
+    
+    margin-top: 5px;
+    margin-left: 17px;
+    /*margin-bottom: 10px;*/
+    border: 2px dashed #592E2C;
+}
+.figura
+{
+    max-height: 100px;
+    max-width: 100px;
+    /*border: 2px dashed #242021;*/
+    
+    
+    cursor: url(archivos/otros/drag_hand.png),auto;
+    
+}
+
+
+.ladoB
+{  
+  height:  450px;
+  width:  400px;
+  
+  /*border: 2px dashed green;*/
+}
+.faceContainer2
+{
+    
+    max-height: 80%;
+    max-width: 60%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    margin: auto;
+    margin-top: 35%;
+    
+    
+    /*border: 2px dashed green;*/
+    border-radius: 8px;
+}
+
+#resultado 
+{
+  text-align: center;
+  font-size: 30px;
+  /*border: 3px solid #3D448B;*/
+}
+.cara
+{
+    max-height: 100%;
+    max-width:  100%;
+    opacity: 0.5;
+    
+}
+
+.contRespuesta
+{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 3px solid #695DA9;
+}
+
+#palabra
+{
+    font-family: "Gilroy";
+    font-size: 55px;
+    color: #F6912C;
+}
+#palabra2
+{
+    font-family: "Gilroy-Light";
+    font-size: 25px;
+    color: #F6912C;
+}.smile
+{
+  width:800px;
+  height:450px;
+  margin: 0 auto;
+  border: 3px solid #7B7C7D;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  cursor: url(archivos/otros/drag_hand.png),auto;
+}

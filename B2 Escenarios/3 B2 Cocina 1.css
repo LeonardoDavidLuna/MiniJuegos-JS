@@ -1,0 +1,395 @@
+@font-face 
+{
+    font-family: "Gilroy";
+    src:url(Archivos/Fuentes/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face 
+{
+    font-family: "Gilroy-Light";
+    src:url(archivos/otros/Gilroy-Light.otf) format("truetype");
+}
+
+#container
+{      
+  height: 550px;
+  width: 800px;
+  /*border: 2px solid red;*/
+  
+  cursor: url(Archivos/Otros/drag_hand0.png),auto;
+}
+
+.contInstruccion
+{
+    background: #1EACE3;
+    width:auto;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left:50%;
+    padding:5px;
+    
+}
+#instruccion
+{
+    font-size: 30px;
+    font-family: "Gilroy";
+    color: #08084E;
+}
+#subcontainer
+{
+    height: 500px;
+    width: auto;
+    
+    /*border: 2px dashed purple;*/
+}
+#fondo
+{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+}
+#leche
+{
+    position: absolute;
+    height: 55px;
+    width: 30px;
+    
+    margin-top: 220px;
+    margin-left: 116px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#microondas
+{
+    position: absolute;
+    height: 43px;
+    width: 63px;
+    
+    margin-top: 208px;
+    margin-left: 245px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+    
+}
+#platos
+{
+    position: absolute;
+    height: 17px;
+    width: 46px;
+    
+    margin-top: 235px;
+    margin-left: 317px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#estufa
+{
+    position: absolute;
+    height: 90px;
+    width: 95px;
+    
+    margin-top: 212px;
+    margin-left: 371px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#cucharas
+{
+    position: absolute;
+    height: 62px;
+    width: 46px;
+    
+    margin-top: 185px;
+    margin-left: 472px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#refrigerador
+{
+    position: absolute;
+    height: 185px;
+    width: 109px;
+    
+    margin-top: 88px;
+    margin-left: 531px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#vasos
+{
+    position: absolute;
+    height: 28px;
+    width: 66px;
+    
+    margin-top: 105px;
+    margin-left: 642px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#tazas
+{
+    position: absolute;
+    height: 28px;
+    width: 66px;
+    
+    margin-top: 150px;
+    margin-left: 645px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#silla
+{    
+    position: absolute;
+    height: 222px;
+    width: 92px;
+    
+    margin-top: 268px;
+    margin-left: 275px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#pan
+{
+    position: absolute;
+    height: 36px;
+    width: 51px;
+    
+    margin-top: 350px;
+    margin-left: 427px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#sal
+{
+    position: absolute;
+    height: 32px;
+    width: 17px;
+    
+    margin-top: 355px;
+    margin-left: 513px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#pimienta
+{
+    position: absolute;
+    height: 32px;
+    width: 17px;
+    
+    margin-top: 355px;
+    margin-left: 535px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#huevos
+{
+    position: absolute;
+    height: 41px;
+    width: 56px;
+    
+    margin-top: 307px;
+    margin-left: 445px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#queso
+{
+    position: absolute;
+    height: 25px;
+    width: 33px;
+    
+    margin-top: 329px;
+    margin-left: 506px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#olla
+{
+    position: absolute;
+    height: 40px;
+    width: 51px;
+    
+    margin-top: 285px;
+    margin-left: 503px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#naranja
+{
+    position: absolute;
+    height: 30px;
+    width: 43px;
+    
+    margin-top: 359px;
+    margin-left: 600px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#manzana
+{
+    position: absolute;
+    height: 29px;
+    width: 21px;
+    
+    margin-top: 359px;
+    margin-left: 578px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#sandia
+{
+    position: absolute;
+    height: 29px;
+    width: 31px;
+    
+    margin-top: 300px;
+    margin-left: 555px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#uvas
+{
+    position: absolute;
+    height: 29px;
+    width: 47px;
+    
+    margin-top: 328px;
+    margin-left: 573px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#platano
+{
+    position: absolute;
+    height: 37px;
+    width: 31px;
+    
+    margin-top: 315px;
+    margin-left: 620px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#pina
+{
+    position: absolute;
+    height: 39px;
+    width: 35px;
+    
+    margin-top: 274px;
+    margin-left: 612px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+#manzana2
+{
+    position: absolute;
+    height: 25px;
+    width: 23px;
+    
+    margin-top: 302px;
+    margin-left: 587px;
+    cursor: url(Archivos/Otros/drag_hand1.png),auto;
+    
+    /*border: 1px solid blue;*/
+}
+
+.imagen
+{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    
+}
+#personaje
+{
+    position: absolute;
+    
+    height: 140px;
+    width: 140px;
+    
+    margin-top: 359px;
+    margin-left: 92px;
+    
+    /*border: 1px solid red;*/
+    
+}
+#dialogo
+{
+    position: absolute;
+    
+    height: 65px;
+    width: 260px;
+    
+    margin-top: 390px;
+    margin-left: 233px;
+    
+    /*border: 1px solid red;*/
+    
+}
+#resultado
+{
+  position: absolute;
+  height: 20px;
+  width: 283px;
+    
+  margin-left: 260px;
+  margin-top: 399px;
+    
+  color: #08084E;
+  font-family: "Gilroy";
+  font-size: 18px;
+}
+#resultado2
+{
+  position: absolute;
+  height: 20px;
+  width: 223px;
+  margin-left: 260px;
+  margin-top: 419px;
+  font-family: "Gilroy-Light";
+  color: #08084E;
+  font-size: 18px;   
+}
+#boton
+{
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    background: yellow;
+    
+    margin-top: 460px;
+    margin-left: 370px;
+    
+    text-align: center;
+    font-family: "Gilroy";
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    color: #08084E;
+    
+    border: 2px solid #695DA9;
+}
